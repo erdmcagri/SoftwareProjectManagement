@@ -1,0 +1,36 @@
+-Kitap
+KitapNo(Primary Key)
+KitapAdi
+KitapYazarý
+YayýnEvi
+KayýtTarih
+KitapTuru
+
+
+-KitapBilgi
+BilgiNo(Primary Key)
+KitapNo(Foreign Key)
+YorumNo(Foreign Key)
+OkunmaSayýsý
+BegenSayýsý
+BegenmeSayýsý
+KitapYerleske
+Durum
+
+-Yorum
+YorumNo(Primary Key)
+KitapNo(Foreign Key)
+Acýklama
+	
+-OkunanKitaplar
+OkNo(Primary Key)
+OkulNo(Foreign Key)
+KitapAdi
+KitapYazari
+
+-Uye
+OkulNo(Primary Key)
+Adý
+Soyadý
+Bolum
+Telefon
